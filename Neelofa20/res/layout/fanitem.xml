@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:orientation="vertical"
+     >
+
+    <com.app.galaxy.ui.utility.ScaleImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appicon1" />
+
+    
+    <LinearLayout android:id="@+id/textlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E1E1E1" android:visibility="visible"
+        android:orientation="vertical" >
+
+          <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    
+    
+    </LinearLayout>
+  
+</LinearLayout>

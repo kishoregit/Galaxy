@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/editback"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/registerimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/designbutton"
+        android:text="Next" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/registerimg"
+        android:background="@drawable/editback" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/password"
+                android:layout_alignRight="@+id/password"
+                android:layout_below="@+id/password"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/billing_phone_1"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/lastname"
+                android:layout_alignRight="@+id/lastname"
+                android:layout_below="@+id/lastname"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing Phone1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/billing_phone_2"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/password"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/password"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing Phone1"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/billing_address_1"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing Address 1" />
+
+            <EditText
+                android:id="@+id/billing_address_2"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing Address 2" />
+
+            <EditText
+                android:id="@+id/billing_city"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing City" />
+
+            <EditText
+                android:id="@+id/billing_pincode"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing Pincode" />
+
+            <AutoCompleteTextView
+                android:id="@+id/billing_country_id"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing Country" />
+
+            <AutoCompleteTextView
+                android:id="@+id/billing_zone_id"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/right"
+                android:layout_marginRight="@dimen/left"
+ 
+                android:background="@drawable/orderback"
+                android:ems="10"
+                android:hint="Billing Zone" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

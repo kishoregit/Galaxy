@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neelofa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="news1">Neelofa sertai Program Galaxy.</string>
+    <string name="news2">Neelofa ucap Selamat Hari Raya Aidilfitri kepada perminat..</string>
+    <string name="login">Enter</string>
+    <string name="listenerNews">onClickNews</string>
+    <string name="listenerLatestNews">onClickLatestNews</string>
+
+</resources>

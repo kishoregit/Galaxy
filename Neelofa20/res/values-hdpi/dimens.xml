@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="listview_right_padding">25dp</dimen>
+    <dimen name="listview_bottom_padding">16dp</dimen>
+    <dimen name="right">5dp</dimen>
+    <dimen name="left">5dp</dimen>
+
+</resources>
